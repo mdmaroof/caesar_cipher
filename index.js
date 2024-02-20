@@ -32,7 +32,6 @@ const encodeShifting = (char, shift) => {
     if (isLetter(char)) {
         encodedChar = alphabet[index];
     } else {
-        console.log(encodedChar, char)
         encodedChar = char;
     }
 
